@@ -12,7 +12,8 @@ const publicKey = 'public_ipLWb/WJh0FRyyAOLOkOSU1Iwxw=';
 const authenticationEndpoint = 'https://www.your-server.com/auth';
 ```
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+So yes, this is working. It enerates a url for a picture and stores it. 
+
 
 ## Available Scripts
 
