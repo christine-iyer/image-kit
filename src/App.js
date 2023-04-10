@@ -83,17 +83,17 @@ function App() {
 
       <IKContext urlEndpoint={urlEndpoint}>
         <h2>Rendering image</h2>
-        <IKImage path="default-image.jpg" width="400" />
+        <IKImage src='https://ik.imagekit.io/oxtwc3opy/Submission2023-01-06.png?updatedAt=1681087163964' width="200" />
 
         <h2>Loading image from an absolute path</h2>
         <IKImage
           src="https://ik.imagekit.io/oxtwc3opy/Submission2023-01-06.png?updatedAt=1681087163964"
-          width="400"
+          width="200"
         />
 
         <h2>Height and width manipulation</h2>
         <IKImage
-          path="default-image.jpg"
+          src="https://ik.imagekit.io/oxtwc3opy/Submission2023-01-06.png?updatedAt=1681087163964"
           transformation={[{
             height: 200,
             width: 200
@@ -102,7 +102,7 @@ function App() {
 
         <h2>Crop mode</h2>
         <IKImage
-          path="default-image.jpg"
+          src="https://ik.imagekit.io/oxtwc3opy/Submission2023-01-06.png?updatedAt=1681087163964"
           transformation={[{
             height: 300,
             width: 200,
@@ -112,7 +112,7 @@ function App() {
 
         <h2>Quality manipulation</h2>
         <IKImage
-          path="default-image.jpg"
+          src="https://ik.imagekit.io/oxtwc3opy/Submission2023-01-06.png?updatedAt=1681087163964"
           transformation={[{ quality: 10 }]}
           width="400"
         />
@@ -120,7 +120,7 @@ function App() {
         <h2>Chained transformation</h2>
         <h3>Step 1: Resized and cropped</h3>
         <IKImage
-          path="default-image.jpg"
+          src='https://ik.imagekit.io/oxtwc3opy/Submission2023-01-06.png?updatedAt=1681087163964'
           transformation={[{
             height: 300,
             width: 200
@@ -129,7 +129,7 @@ function App() {
 
         <h3>Step 2: Resized and cropped, then rotated</h3>
         <IKImage
-          path="default-image.jpg"
+          src='https://ik.imagekit.io/oxtwc3opy/Submission2023-01-06.png?updatedAt=1681087163964'
           transformation={[{
             height: 300,
             width: 200,
@@ -140,7 +140,7 @@ function App() {
 
         <h3>Step 3: Rotated, then resized and cropped</h3>
         <IKImage
-          path="default-image.jpg"
+          src='https://ik.imagekit.io/oxtwc3opy/Submission2023-01-06.png?updatedAt=1681087163964'
           transformation={[{
             rt: 90,
           }, {
@@ -151,7 +151,7 @@ function App() {
 
         <h2>Adding text overlay to image</h2>
         <IKImage
-          path="default-image.jpg"
+          src='https://ik.imagekit.io/oxtwc3opy/Submission2023-01-06.png?updatedAt=1681087163964'
           transformation={[{
             height: 300,
             width: 300,
@@ -163,7 +163,7 @@ function App() {
 
         <h2>Lazy loading images</h2>
         <IKImage
-          path="default-image.jpg"
+          src='https://ik.imagekit.io/oxtwc3opy/Submission2023-01-06.png?updatedAt=1681087163964'
           transformation={[{ height: 300, width: 400 }]}
           loading="lazy"
           height="300"
@@ -172,14 +172,14 @@ function App() {
 
         <h2>Blurred image placeholder</h2>
         <IKImage
-          path="default-image.jpg"
+          src='https://ik.imagekit.io/oxtwc3opy/Submission2023-01-06.png?updatedAt=1681087163964'
           lqip={{ active: true, quality: 20 }}
           width="400"
         />
 
         <h3>Combining lazy loading with low-quality placeholders</h3>
         <IKImage
-          path="default-image.jpg"
+          src='https://ik.imagekit.io/oxtwc3opy/Submission2023-01-06.png?updatedAt=1681087163964'
           transformation={[{ height: 300, width: 400 }]}
           lqip={{ active: true }}
           loading="lazy"
