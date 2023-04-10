@@ -10,7 +10,7 @@ const ImageKit = require('imagekit');
 const imagekit = new ImageKit({
   urlEndpoint: 'https://ik.imagekit.io/oxtwc3opy',
   publicKey: 'public_ipLWb/WJh0FRyyAOLOkOSU1Iwxw=',
-  privateKey: 'private_X6lWeNb7aaxW4eGl11lLy',
+  privateKey: 'private_X6lWeNb7aaxW4eGl11lLy+arViA=',
 });
 
 // allow cross-origin requests
