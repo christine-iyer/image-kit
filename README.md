@@ -15,6 +15,8 @@ const authenticationEndpoint = 'https://www.your-server.com/auth';
 So yes, this is working. It enerates a url for a picture and stores it. 
 
 
+## Verified functionality to transfer to bookmarks.
+
 ## Available Scripts
 
 In the project directory, you can run:
